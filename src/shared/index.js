@@ -1,5 +1,5 @@
 export const defaultOptions = {
-    email: '',
+    username: '',
     apiKey: '',
     realm: 'zulip.krista.ru'
 };
