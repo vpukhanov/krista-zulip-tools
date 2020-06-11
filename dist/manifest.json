@@ -13,7 +13,10 @@
     {
       "matches": ["https://zulip.krista.ru/*"],
       "js": ["js/content-script.js"],
-      "css": ["css/features/link-decoration.css"]
+      "css": [
+        "css/features/link-decoration.css",
+        "css/features/message-forwarding.css"
+      ]
     }
   ],
 

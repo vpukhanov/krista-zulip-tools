@@ -1,0 +1,18 @@
+.zkt-forward-mode::after {
+  font-family: FontAwesome, sans-serif;
+  content: "\f04e\00a0\00a0Выберите получателя сообщения";
+  position: fixed;
+  top: 8px;
+  left: 35%;
+  right: 35%;
+  text-align: center;
+  padding: 14px;
+  background-color: #24ec24;
+  z-index: 100000;
+  border: 1px solid green;
+  border-radius: 8px;
+}
+
+.zkt-forward-mode.zkt-forward-mode-complete::after {
+  content: "\f00c\00a0\00a0Готово";
+}
