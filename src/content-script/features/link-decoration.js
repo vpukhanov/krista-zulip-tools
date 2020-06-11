@@ -8,8 +8,6 @@ const isMessageHref = (href, realm) =>
 const extractMessageId = (href) => messageIdRegex.exec(href)[1];
 
 const performDecoration = (link, message) => {
-  console.log(message);
-
   const container = document.createElement("blockquote");
   container.className = "zkt-decorated-link";
 
