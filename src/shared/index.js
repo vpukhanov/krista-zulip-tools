@@ -1,5 +1,5 @@
 export const defaultOptions = {
     username: '',
     apiKey: '',
-    realm: 'zulip.krista.ru'
+    realm: 'https://zulip.krista.ru'
 };

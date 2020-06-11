@@ -6,7 +6,8 @@
     "content_scripts": [
         {
             "matches": ["https://zulip.krista.ru/*"],
-            "js": ["js/content-script.js"]
+            "js": ["js/content-script.js"],
+            "css": ["css/features/link-decoration.css"]
         }
     ],
 
@@ -19,6 +20,7 @@
     },
 
     "permissions": ["storage"],
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
 
     "browser_specific_settings": {
         "gecko": {

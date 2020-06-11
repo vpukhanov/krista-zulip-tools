@@ -1,0 +1,22 @@
+a[data-zkt] {
+    color: inherit;
+}
+
+.zkt-decorated-link {
+    display: flex;
+    align-items: center;
+}
+
+.zkt-decorated-link-avatar {
+    width: 42px;
+    height: 42px;
+}
+
+.zkt-decorated-link-content {
+    margin-left: 8px;
+}
+
+.zkt-decorated-link-content .icon-forward {
+    margin-right: 4px;
+    color: rgba(0, 0, 0, 0.6);
+}
