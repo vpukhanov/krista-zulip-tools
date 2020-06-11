@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "name": "krista-zulip-tools",
+    "version": "1.0",
+
+    "content_scripts": [
+        {
+            "matches": ["https://zulip.krista.ru/*"],
+            "js": ["js/content-script.js"]
+        }
+    ],
+
+    "background": {
+        "scripts": ["js/background.js"]
+    },
+
+    "options_ui": {
+        "page": "options.html"
+    },
+
+    "permissions": ["storage"],
+
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "zulip-tools@krista.ru"
+        }
+    }
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Настройки Krista Zulip Tools</title>
+
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+        .grid {
+            display: grid;
+            grid-auto-rows: 1fr;
+            grid-template-columns: 1fr 2fr;
+            grid-row-gap: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <label for="email">Логин (почта):</label>
+        <input type="text" id="email" />
+        <label for="apiKey">API ключ:</label>
+        <input type="text" id="apiKey" />
+        <label for="realm">Адрес сервера:</label>
+        <input type="text" id="realm" />
+    </div>
+    <script src="js/options.js"></script>
+</body>
+</html>
