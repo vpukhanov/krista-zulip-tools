@@ -1,36 +1,36 @@
 {
-    "manifest_version": 2,
-    "name": "Krista Zulip Tools",
-    "description": "Расширение функциональности Zulip",
-    "version": "1.0.0",
+  "manifest_version": 2,
+  "name": "Krista Zulip Tools",
+  "description": "Расширение функциональности Zulip",
+  "version": "1.0.0",
 
-    "icons": {
-        "48": "icons/logo.png",
-        "96": "icons/logo@2x.png"
-    },
+  "icons": {
+    "48": "icons/logo.png",
+    "96": "icons/logo@2x.png"
+  },
 
-    "content_scripts": [
-        {
-            "matches": ["https://zulip.krista.ru/*"],
-            "js": ["js/content-script.js"],
-            "css": ["css/features/link-decoration.css"]
-        }
-    ],
-
-    "background": {
-        "scripts": ["js/background.js"]
-    },
-
-    "options_ui": {
-        "page": "options.html"
-    },
-
-    "permissions": ["storage"],
-    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
-
-    "browser_specific_settings": {
-        "gecko": {
-            "id": "zulip-tools@krista.ru"
-        }
+  "content_scripts": [
+    {
+      "matches": ["https://zulip.krista.ru/*"],
+      "js": ["js/content-script.js"],
+      "css": ["css/features/link-decoration.css"]
     }
+  ],
+
+  "background": {
+    "scripts": ["js/background.js"]
+  },
+
+  "options_ui": {
+    "page": "options.html"
+  },
+
+  "permissions": ["storage"],
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "zulip-tools@krista.ru"
+    }
+  }
 }
