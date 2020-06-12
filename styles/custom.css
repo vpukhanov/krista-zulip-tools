@@ -1,0 +1,26 @@
+body {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+header > *:not(:last-child) {
+    margin-right: 24px;
+}
+
+.browser-logo {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+.browser-section {
+    flex-direction: column;
+}
