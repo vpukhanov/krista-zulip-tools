@@ -35,7 +35,7 @@
   "browser_specific_settings": {
     "gecko": {
       "id": "zulip-tools@krista.ru",
-      "update_url": "http://pukhanov.ru/krista-zulip-tools/gecko-update-manifest.json"
+      "update_url": "https://pukhanov.ru/krista-zulip-tools/gecko-update-manifest.json"
     }
   }
 }
